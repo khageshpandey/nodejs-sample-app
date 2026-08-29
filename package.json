@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-sample-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js/Express REST API for local dev and CI/CD testing",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
